@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tonic JSON Test</string>
+    <string name="refresh_table">Refresh Table</string>
+    <string name="first_name_label">First Name</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="the_filename">people.json</string>
+</resources>

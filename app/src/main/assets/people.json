@@ -1,0 +1,40 @@
+{
+  "people" : [
+    {
+      "first_name" : "Malcolm",
+      "last_name" : "Reynolds"
+    },
+    {
+      "first_name" : "Zoe",
+      "last_name" : "Washburne"
+    },
+    {
+      "first_name" : "Inara",
+      "last_name" : "Serra"
+    },
+    {
+      "first_name" : "Jayne",
+      "last_name" : "Cobb"
+    },
+    {
+      "first_name" : "Kaywinnet",
+      "last_name" : "Frye"
+    },
+    {
+      "first_name" : "Simon",
+      "last_name" : "Tam"
+    },
+    {
+      "first_name" : "River",
+      "last_name" : "Tam"
+    },
+    {
+      "first_name" : "Derrial",
+      "last_name" : "Book"
+    },
+    {
+      "first_name" : "Serenity",
+      "last_name" : null
+    }
+  ]
+}
