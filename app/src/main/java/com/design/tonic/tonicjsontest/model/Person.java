@@ -2,6 +2,8 @@ package com.design.tonic.tonicjsontest.model;
 
 /**
  * Created by gjacobs on 9/14/15.
+ *
+ * Person object found in people list converted from people.json
  */
 public class Person {
     private String first_name;

@@ -1,12 +1,25 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <TableLayout
+    tools:context=".MainActivity"
+    android:measureWithLargestChild="true"
+    android:paddingLeft="30dp"
+    android:paddingRight="50dp">
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/people_table"
-        android:fadeScrollbars="false"
-        android:layout_centerInParent="true" />
-</RelativeLayout>
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:elevation="20dp" />
+        <GridView
+            android:id="@+id/people_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2" />
+    </FrameLayout>
+</LinearLayout>
